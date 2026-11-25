@@ -77,12 +77,74 @@ This repository contains my Image and Video Processing practical work completed 
   * Filter size: 5 × 5
   * Sigma: 3
 
+### Experiment 8 — Local Binary Pattern and Image Denoising
+
+* Implement Local Binary Pattern (LBP) on a grayscale image
+* Generate the LBP image
+* Display the LBP image
+* Plot the histogram of LBP values
+* Add Gaussian noise to the input image
+* Add speckle noise to the input image
+* Denoise the noisy images using different filters
+* Apply Wiener filter
+
+  * 3 × 3 window
+  * 5 × 5 window
+
+* Apply median filter
+
+  * 3 × 3 window
+  * 5 × 5 window
+
+* Apply Gaussian filter
+
+  * 3 × 3 window
+  * 5 × 5 window
+
+* Apply bilateral filter
+
+  * 3 × 3 window
+  * 5 × 5 window
+
+* Compare the denoising results
+
+### Experiment 9 — Noise Generation Using Probability Distributions
+
+* Generate different types of noise using probability distribution equations
+* Generate Uniform noise
+* Generate Gaussian noise
+* Generate Erlang (Gamma) noise
+* Generate Exponential noise
+* Generate Rayleigh noise
+* Compare the generated noise with built-in noise functions
+* Plot histograms of the generated noise
+* Analyze the shape of the noise distributions
+
+### Experiment 10 — Adaptive Median Filtering and Otsu's Global Thresholding
+
+* Add salt-and-pepper noise to the input image
+* Implement an adaptive median filter
+* Input the initial window size from the user
+* Input the maximum window size (Smax) from the user
+* Apply adaptive median filtering
+* Apply standard median filtering
+* Compare the performance of median and adaptive median filters
+* Calculate PSNR values
+* Read the input grayscale image
+* Apply Otsu's global thresholding
+* Automatically determine the optimal threshold value
+* Segment the image into foreground and background
+* Display the thresholded image
+* Display the histogram with the selected threshold
+
 ## Technologies Used
 
 * Python
 * OpenCV
 * NumPy
 * Matplotlib
+* SciPy
+* Scikit-Image
 * Google Colab
 
 ## Repository Structure
@@ -97,5 +159,8 @@ Image-Video-Processing/
 ├── Experiment-5/
 ├── Experiment-6/
 ├── Experiment-7/
+├── Experiment-8/
+├── Experiment-9/
+├── Experiment-10/
 └── README.md
 ```
